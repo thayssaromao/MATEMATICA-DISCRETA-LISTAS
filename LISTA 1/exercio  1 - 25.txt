@@ -1,0 +1,310 @@
+
+1.
+n = -2, n² = 4 > 0 mas n <0. CONTRAEXEMPLO
+N = 8, N² + 1 = 65, 65 não é número primo. CONTRAEXEMPLO
+n = 6, n³ = 216, n! = 720, logo 216 < 720. CONTRAEXEMPLO
+⬛
+
+2.
+p -> q
+q->p
+n=2 
+3*2+5 =11
+⬛
+3.
+4 e 2
+4+2 = 6
+6 não é múltiplo de 4
+
+
+4.
+x=2m
+y=2m’
+x+y = 2(m+m’)
+tá faltando diferenciar x e y com ‘
+⬛
+
+5. Usando uma demonstração direta, mostre que o produto de dois quadrados perfeitos é também um quadrado perfeito.
+m=k²
+n = k²’
+
+QPQ m*n = (k *k’)²  
+n*m = k² * k²’
+n*m = (k * ‘k)²
+⬛
+
+6. Demonstre que a soma de um inteiro par com um inteiro ímpar é ímpar.
+n = 2k
+m = 2k+1
+
+QPQ n+m = 2k+1
+n+m = 2k + 2k+1
+n+m =2(k+k)+1
+k+k = K
+n+m = 2K+1
+⬛
+
+7. Demonstre que a multiplicação de um inteiro par com um inteiro par é par.
+n = 2k
+m = 2k’
+QPQ n*m = 2K
+n*m = 2k * 2k’
+n*m = 2(k * k’)
+k * k’ é igual a um inteiro K
+n*m = 2K
+⬛
+
+8. Demonstre que a multiplicação de um inteiro par com um inteiro ímpar é par.
+
+n = 2k
+m =2k’+1
+QPQ n*m = 2K
+n*m = 2k(2k’+1)
+n*m = 4kk’+2k
+n*m = 2(2kk’+k)
+2kk’+k = K
+n*m = 2K
+⬛
+
+9. Mostre que o quadrado de um inteiro ímpar sempre pode ser escrito como 
+8k+1 para algum inteiro k.
+n² = (2k+1)²
+
+.QPQ  n=8k+1
+n² = (2k+1)(2k+1) = 4k²+4k+1
+n² = 4(k²+k)+1
+k²+k é um número inteiro par = 2K
+n² = 4(2K)+1 = 8K+1
+
+10. Mostre que o quadrado de um inteiro par sempre pode ser escrito ou como 
+8k, ou como 8k+4, para algum inteiro k.
+
+caso 1: inteiro par
+n² = (2k)²
+QPQ n²=8k ou 8k+4
+n² = 4k² = 4(k²)
+k² é par = 2k
+n² = 4(2k) = 8K
+
+caso 2: inteiro ímpar
+m² = (2k+1)(2k+1) = 4k²+4k+1
+n² = 4(4k²+4k+1) = 16k²+16k+4
+n² = 8(2k²+2k)+4
+2k²+2k = K 
+n² = 8K+4
+⬛
+
+11. Usando uma demonstração por contraposição, mostre que, sendo x e y números Reais, se x+y≥2, então x≥1 ou y≥1.
+P -> (R V S)
+P: x+y≥2
+R: x≥1
+S: y≥1
+CONTRAPOSIÇÃO
+¬(R V S) -> ¬P
+x < 1 e y<1 então x+y <2
+se x=0 y=0 x+y=0<2.
+⬛
+
+12. Demonstre que se n=100, n=25 ou n=169, então n é um quadrado perfeito e é uma soma de dois quadrados perfeitos.
+n = a² + b²
+
+caso 1:
+n = 100
+n = 10² + 0²
+
+caso 2:
+n = 25
+n = 3² + 4²
+
+caso 3:
+n = 169
+n = 12² + 5²
+⬛
+
+13. Demonstre que para todo inteiro n, 3(n²+2n+3)−2n² é um quadrado perfeito.
+Definição de quadrado perfeito:
+x = k²
+x = (k+1)²
+…
+QPQ  3(n²+2n+3)−2n² = (a+b)(a+b)
+3n² + 6n + 9 - 2n²
+n²+6n+9 = (n + 3)(n+3) ou (n + 3)²
+⬛
+14. Demonstre que se n for um inteiro ímpar, então será igual a diferença de dois quadrados perfeitos.
+
+Diferença de dois quadrados perfeitos
+a² - b²
+Por contradição
+
+p -> q
+(p and ¬q) -> contradição
+n é ímpar e não é igual a diferença de dois quadrados
+n = 25
+25 = 5² - 0²
+⬛
+
+15. Demonstre que para x e y números positivos, x<y se e somente se x²<y².
+x<y -> x²<y²
+x²<y² -> x<y
+
+par
+2² < 3² -> 4 < 9
+4 < 16 -> 4² < 16²
+
+ímpar
+3 < 4 -> 3² < 4²
+3² < 4² -> 9 < 16
+⬛
+
+16. Demonstre que se x5+2x−3=0, então x≠2.
+
+q: se x5+2x−3=0
+p: x!=2
+Contraposição
+
+x5+2x−3!=0
+x=2
+32+4-3 !=0
+33!=0
+⬛
+17. Demonstre que se m,n,p forem inteiros tais que m divide n e p divide m, então p divide n.
+n = k * m
+m = k’ * p
+QPQ n = k * p
+n = k(k’ * p)
+n = p * (k * k’)
+k * k’ =K
+n = K * p
+⬛
+18. Demonstre que dados dois inteiros quaisquer x e y, |xy|=|x||y|.
+Módulo
+a se a>=0
+-a se a < 0
+
+caso 1
+x >= 0
+y >= 0
+
+|xy| >= 0
+|xy| = |x||y|
+
+caso 2
+x>= 0
+y<0
+
+i.xy<0
+|xy| < 0 = -(xy)
+=-xy
+-x-y < |x||y|
+
+ii.xy>=0
+|xy|=|x||y|
+
+caso 3
+x<0
+y>=0
+
+segue caso 2
+
+caso 4
+x<0
+y<0
+
+xy < 0 = -(xy) < 0 
+|xy| = |x||y| 
+⬛
+
+19. Demonstre ou refute: para um inteiro par n, n>2, 2^(n)−1 não é primo.
+contra-exemplo
+n = 4
+2^4-1=15
+⬛
+
+20. Demonstre ou refute: a soma de dois números racionais é racional.
+refutamento
+⅔ + ⅓ =1
+⬛
+
+21. Prove ou refute: é possível construir um conjunto de 22 dias em que não há 4 elementos que possam ser selecionados de modo a caírem todos no mesmo dia da semana.
+contra-exemplo
+x<4 elementos
+7 dias na semana 
+conjunto 22 dias
+para x<4
+7*3 =21<22 não é possível construir um conjunto de 22 dias.
+⬛
+
+22.  Prove que a raiz quadrada de 2 é um número irracional.
+Por contradição, assumimos que a raiz de 2 é racional.
+Definindo um racional: razão de dois números inteiros, a/b, b≠0 e sem divisores comuns!
+raiz 2 = a/b
+pra tirar a raiz, eleva-se os dois lados à potência de 2, (raiz 2)² = (a/b)²
+2 = a²/b², 2b²=a²
+2b² é par, b = 2k
+a² é par, a =2k
+raiz 2 = 2k/2k, divisor comum! provamos por contradição
+⬛
+
+23. Prove que existem dois números irracionais x e y tais que x^y é um número racional.
+Um número irracional é um número real que não pode ser expresso como uma fração de dois números inteiros​, onde a e b são inteiros e b≠0.
+x=(raiz 2)^raiz 2  
+y=raiz 2
+
+x^y=2
+⬛
+
+24. Prove que a raiz quadrada de 3 é um número irracional.
+Por contradição, assumimos que a raiz de 3 é racional.
+Definindo um racional: razão de dois números inteiros, a/b, b≠0 e sem divisores comuns!
+
+raiz 3 = a/b
+(raiz 3)² = a²/b²
+3=a²/b²
+3b²=a²
+b = 3k
+a= 3k
+raiz 3=3k/3k divisor comum! provamos por contradição
+
+⬛
+25. Para cada uma das equivalências a seguir, prove ambas suficiência e necessidade, ou refute ambas, ou prove uma e refute a outra.
+ a. O quadrado de um número inteiro a é par se e somente se a é par.
+(ida)
+a= 2k
+a² = (a)² = (2k)² = 4k² = 2(2k)=2K
+
+(volta)
+contradição
+se a = 2k+1
+a² = (2k+1)² = 4k²+4k+1 = 2(2k²+2k)+1
+a² = 2K+1 A afirmação é verdadeira. O quadrado de um número inteiro a é par se e somente se a é par.
+ ⬛
+ b. O quadrado de um número inteiro a é divisível por 3 se e somente se a é divisível por 3.
+(ida)
+a = 3k
+a² = (3k)²=9k²
+a² = 3(3k²)
+
+(volta)
+contradição
+a = 3k+1
+quero chegar na contradição a = 3k+1=a²=3k
+a² = (3k+1)²
+a² = 9k²+6k+1 = 3(k²+2k)+1
+a² = 3K+1 = a²=3k
+contradição
+⬛ 
+ c. O quadrado de um número inteiro a é divisível por 4 se e somente se a é divisível por 4.
+
+(ida)
+a²=(4k)² = 16k²
+a² = 4(4k²)=4K
+
+(volta)
+a = 4k+1
+a² = 16k²+8k+1= 4(4k²+2k)+1
+a² = 4K+1=a²=4k
+contradição
+⬛ 
+
+
+
